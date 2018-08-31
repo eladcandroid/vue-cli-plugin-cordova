@@ -64,14 +64,6 @@ module.exports = (api, options) => {
         })
     }
   })
-
-  api.configureWebpack(config => {
-    if (process.env.NODE_ENV === 'production') {
-      // Default publicPath is '/'
-      // And it's not working well with the 'file://' protocol
-      config.baseUrl = ''
-    }
-  })
 }
 
 function copyRedirectHtml (args, distDirPath) {
