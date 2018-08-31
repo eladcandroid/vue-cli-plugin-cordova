@@ -8,30 +8,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dekimasoon/vue-cli-plugin-cordova.git"
+    "url": "git+https://github.com/eladcandroid/vue-cli-plugin-cordova.git"
   },
   "keywords": [
     "vue",
     "cordova",
     "vue-cli"
   ],
-  "author": "dekimasoon",
+  "author": "eladcandroid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dekimasoon/vue-cli-plugin-cordova/issues"
+    "url": "https://github.com/eladcandroid/vue-cli-plugin-cordova/issues"
   },
-  "homepage": "https://github.com/dekimasoon/vue-cli-plugin-cordova#readme",
+  "homepage": "https://github.com/eladcandroid/vue-cli-plugin-cordova#readme",
   "dependencies": {
-    "@vue/cli-shared-utils": "^3.0.0-beta.6",
+    "@vue/cli-shared-utils": "^3.0.1",
     "address": "^1.0.3",
-    "cordova-plugin-device": "^2.0.1",
-    "ejs": "^2.5.7",
+    "cordova-plugin-device": "^2.0.2",
+    "ejs": "^2.6.1",
     "html-webpack-include-assets-plugin": "^1.0.4",
-    "portfinder": "^1.0.13"
+    "portfinder": "^1.0.17"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-plugin-vue-libs": "^2.1.0",
-    "standard-version": "^4.3.0"
+    "eslint": "^5.4.0",
+    "eslint-plugin-vue-libs": "^3.0.0",
+    "standard-version": "^4.4.0"
   }
 }

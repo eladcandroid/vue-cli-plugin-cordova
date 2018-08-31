@@ -69,7 +69,7 @@ module.exports = (api, options) => {
     if (process.env.NODE_ENV === 'production') {
       // Default publicPath is '/'
       // And it's not working well with the 'file://' protocol
-      config.output.publicPath = ''
+      config.baseUrl = ''
     }
   })
 }
