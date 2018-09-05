@@ -57,11 +57,11 @@ module.exports = (api, options) => {
       // FIXME: This is a temporary patch.
       // When the following PR is merged into file-loader, modify it to use cssOutputPath and useRelativePath.
       // https://github.com/webpack-contrib/file-loader/pull/150
-      webpackConfig.plugin('extract-css')
-        .tap(args => {
-          args[0].filename = '[name].[contenthash:8].css',
-          args[0].chunkFilename = '[name].[id].[contenthash:8].css'
-        })
+      // webpackConfig.plugin('extract-css')
+      //   .tap(args => {
+      //     args[0].filename = '[name].[contenthash:8].css',
+      //     args[0].chunkFilename = '[name].[id].[contenthash:8].css'
+      //   })
     }
   })
 }
